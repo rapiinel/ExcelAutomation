@@ -1,1 +1,11 @@
-import xlrd
+import openpyxl
+
+link = 'C\\Users\\Raffie\\OneDrive - Legalmatch\\Personal\\13 Team Process Metrics\\'
+
+CRC = openpyxl.load_workbook(link + 'CR Completed.csv')
+CRS = openpyxl.load_workbook(link + 'CR Sets.csv')
+EMS = openpyxl.load_workbook(link + 'EM Set.csv')
+Deals = openpyxl.load_workbook(link + 'Deals.csv')
+
+#mainWorkbook
+
